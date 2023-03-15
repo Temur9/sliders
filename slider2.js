@@ -31,8 +31,6 @@ const resetInterval = () => {
     interval = setInterval(runSlide, 2000)
 }
 
-
-
 nextBtn.addEventListener('click', () => {
     index++
     resetInterval()
@@ -44,7 +42,7 @@ prevBtn.addEventListener('click', () => {
     changeImages()
 })
 
-//***********************---------------*/ #2 slider with tabs
+//***********************--------------*/ #2 slider with tabs
 
 const slides = document.querySelector('.slides'),
     slide = document.querySelectorAll('.slide'),
